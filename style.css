@@ -11,32 +11,39 @@ body {
     height: 100vh;
 }
 
-.color {
+
+.coloroption {
     display: table-cell;
-    border: 1px solid #333;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
+    box-shadow: 0 10px 34px rgba(0,0,0,0.5);
+    margin: 10px;
 }
 
-.clr1 {
-    width: 150px;
-    height: 150px;
+.color1 {
     background-color: #333;
 }
 
-.clr2 {
-    width: 150px;
-    height: 150px;
-    background-color: #b91111;
+.color2 {
+    background-color: #ce1515;
 }
 
-.clr3 {
-    width: 150px;
-    height: 150px;
-    background-color: #19b3ce;
+.color3 {
+    background-color: aqua;
 }
 
-.clr4 {
-    background-color: #fcee30;
-    width: 150px;
-    height: 150px;
+.color4 {
+    background-color: blue;
+}
+
+.background-title h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info p{
+    font-size: 30px;
+    margin-top: 30px;
 }
