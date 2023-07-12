@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.color {
+    display: table-cell;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.clr1 {
+    width: 150px;
+    height: 150px;
+    background-color: #333;
+}
+
+.clr2 {
+    width: 150px;
+    height: 150px;
+    background-color: #b91111;
+}
+
+.clr3 {
+    width: 150px;
+    height: 150px;
+    background-color: #19b3ce;
+}
+
+.clr4 {
+    background-color: #fcee30;
+    width: 150px;
+    height: 150px;
+}
